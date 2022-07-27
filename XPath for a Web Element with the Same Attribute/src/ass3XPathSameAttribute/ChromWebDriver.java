@@ -61,7 +61,7 @@ public class ChromWebDriver {
 		WebElement sameAttributeXPathMethod = driver.findElement(By.xpath(
 				"//input[@name='field_profile_givennames[0][value]']"));
 
-		// click on web element
+		// Enter Word
 		sameAttributeXPathMethod.sendKeys("Mawaddah");
 
 		// Delay execution for 5 seconds after find specific web element
